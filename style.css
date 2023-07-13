@@ -4,16 +4,19 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    gap: 0;
 }
 
 .header {
     box-sizing: border-box;
-    height: 72px;
+    max-height: 72px;
     background: #1F2937;
-    padding: 16px 640px;
+    padding: 0 16px;
+    margin: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    flex: auto;
 }
 
 .logo {
@@ -33,4 +36,24 @@ ul {
 a {
     text-decoration: none;
     color: #F9FAF8;
+}
+
+.first {
+    background: #1F2937;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content {
+    width: 640px;
+}
+
+.heading {
+    margin: 0;
+}
+
+.first img {
+    display: flex;
+    flex: 1;
 }
